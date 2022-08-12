@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Test">
+  <test name="API Test">
+    <classes>
+      <class name="testCases.SignUpAPI"/>
+      <class name="testCases.GetOverViewDetails" />
+      <class name="testCases.GetCountryList" />
+      <class name="testCases.GetBankDetails" />
+    </classes>
+  </test>
+</suite>
